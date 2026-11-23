@@ -1,0 +1,29 @@
+site_name: Garmin GPS Knowledge Base
+site_description: Garmin GPS updates, maps, software installation, and troubleshooting documentation
+site_url: https://gpsupdates.readthedocs.io/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - GPS Updates: garmin-gps-updates.md
+  - Map Updates: map-updates.md
+  - Software Updates: software-updates.md
+  - Troubleshooting: troubleshooting.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+
+plugins:
+  - search
